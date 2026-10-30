@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анна Иванова — репетитор по математике</title>
+    <meta name="description" content="Репетитор по математике. Подготовка к ОГЭ и ЕГЭ, помощь со школьной программой. Онлайн и офлайн.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#" class="logo">Анна Иванова</a>
+            <nav class="nav">
+                <a href="#about" class="nav__link">Обо мне</a>
+                <a href="#services" class="nav__link">Услуги</a>
+                <a href="#reviews" class="nav__link">Отзывы</a>
+                <a href="#contacts" class="nav__link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Главный блок -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Репетитор по математике</h1>
+                <p class="hero__text">
+                    Помогаю разобраться в школьной программе, подготовиться к ОГЭ и ЕГЭ.
+                    Занятия онлайн и офлайн. Первое занятие — бесплатно.
+                </p>
+                <a href="#contacts" class="btn">Записаться на занятие</a>
+            </div>
+        </section>
+
+        <!-- Обо мне -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section__title">Обо мне</h2>
+                <div class="about">
+                    <div class="about__photo">
+                        <img src="https://via.placeholder.com/300x300?text=Фото" alt="Фото репетитора">
+                    </div>
+                    <div class="about__content">
+                        <p>
+                            Меня зовут Анна. Окончила МГУ, преподаю математику уже 8 лет.
+                            За это время подготовила более 120 учеников к экзаменам.
+                        </p>
+                        <p>
+                            Мои ученики сдают ОГЭ и ЕГЭ на 80+ баллов и перестают бояться математики.
+                        </p>
+                        <ul class="about__list">
+                            <li>Высшее математическое образование</li>
+                            <li>Опыт работы 8 лет</li>
+                            <li>Индивидуальный подход к каждому</li>
+                            <li>Онлайн и офлайн занятия</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section id="services" class="section section--gray">
+            <div class="container">
+                <h2 class="section__title">Услуги и цены</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3 class="card__title">Школьная программа</h3>
+                        <p class="card__text">5–9 классы. Помощь с домашними заданиями, разбор сложных тем.</p>
+                        <p class="card__price">1 500 ₽ / час</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card__title">Подготовка к ОГЭ</h3>
+                        <p class="card__text">Разбор всех типов заданий, пробные экзамены, работа над ошибками.</p>
+                        <p class="card__price">2 000 ₽ / час</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card__title">Подготовка к ЕГЭ</h3>
+                        <p class="card__text">Профильный уровень. Индивидуальный план подготовки на год.</p>
+                        <p class="card__price">2 500 ₽ / час</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Отзывы -->
+        <section id="reviews" class="section">
+            <div class="container">
+                <h2 class="section__title">Отзывы</h2>
+                <div class="cards">
+                    <div class="card card--review">
+                        <p class="card__text">«За полгода подтянули математику с 3 до 5. Дочь перестала бояться контрольных.»</p>
+                        <p class="card__author">— Елена, мама ученицы 8 класса</p>
+                    </div>
+                    <div class="card card--review">
+                        <p class="card__text">«Сдал ЕГЭ на 87 баллов. Анна объясняет понятно и без воды.»</p>
+                        <p class="card__author">— Максим, выпускник</p>
+                    </div>
+                    <div class="card card--review">
+                        <p class="card__text">«Очень удобно заниматься онлайн. Всегда можно перенести занятие.»</p>
+                        <p class="card__author">— Ольга, мама ученика 9 класса</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contacts" class="section section--gray">
+            <div class="container">
+                <h2 class="section__title">Контакты</h2>
+                <div class="contacts">
+                    <p><strong>Телефон:</strong> <a href="tel:+79001234567">+7 (900) 123-45-67</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:anna@example.com">anna@example.com</a></p>
+                    <p><strong>Telegram:</strong> <a href="https://t.me/username" target="_blank">@username</a></p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/79001234567" target="_blank">+7 (900) 123-45-67</a></p>
+                </div>
+                <a href="https://t.me/username" class="btn" target="_blank">Написать в Telegram</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Анна Иванова. Репетитор по математике.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
